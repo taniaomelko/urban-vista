@@ -120,12 +120,16 @@ button {
   }
 }
 
+.o-header__icon:hover span {
+  background-color: var(--color--yellow);
+}
+
 .o-header__icon span {
   display: block;
   height: 3px;
   background-color: var(--color-white);
   border-radius: 2px;
-  transition: transform 0.3s ease, opacity 0.3s ease;
+  transition: transform 0.3s ease, opacity 0.3s ease, background-color 0.3s ease;
 }
 
 .o-header__toggle:checked + .o-header__icon span:nth-child(1) {
