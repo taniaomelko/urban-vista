@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Urban Vista</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+  <header class="o-header">
+    <div class="container">
+      <div class="o-header__container">
+        <div class="o-header__logo">
+          <a href="/" class="o-header__logo-wrap">
+            <img src="images/logo.webp" alt="">
+          </a>
+        </div>
+
+        <div class="o-header__menu-wrapper">
+          <input type="checkbox" id="menu-toggle" class="o-header__toggle">
+          <label for="menu-toggle" class="o-header__icon">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+
+          <div class="o-header__menu">
+            <nav class="c-nav">
+              <ul class="c-nav__list">
+                <li class="c-nav__item has-children">
+                  <a href="#" class="c-nav__link">
+                    <span class="c-nav__link-text">
+                      Projects
+                    </span>
+                    <svg width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M6.13313 0L7.2998 1.25L3.7998 5L0.299805 1.25L1.46647 0L3.7998 2.49994L6.13313 0Z" fill="currentColor"/>
+                    </svg>
+                  </a>
+                </li>
+                <li class="c-nav__item">
+                  <a href="#" class="c-nav__link">
+                    <span class="c-nav__link-text">
+                      About company
+                    </span>
+                  </a>
+                </li>
+                <li class="c-nav__item has-children">
+                  <a href="#" class="c-nav__link">
+                    <span class="c-nav__link-text">
+                      Cooperation
+                    </span>
+                    <svg width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M6.13313 0L7.2998 1.25L3.7998 5L0.299805 1.25L1.46647 0L3.7998 2.49994L6.13313 0Z" fill="currentColor"/>
+                    </svg>
+                  </a>
+                </li>
+                <li class="c-nav__item">
+                  <a href="#" class="c-nav__link">
+                    <span class="c-nav__link-text">
+                      Contact us
+                    </span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+
+            <div class="c-lang">
+              <input type="checkbox" id="lang-dropdown-toggle" class="c-lang__dropdown-toggle">
+            
+              <input type="radio" id="lang-en" name="language" class="c-lang__toggle" checked>
+              <input type="radio" id="lang-ua" name="language" class="c-lang__toggle">
+              
+              <label for="lang-dropdown-toggle" class="c-lang__current"></label>
+            
+              <ul class="c-lang__list">
+                <li><label for="lang-en" class="c-lang__option">en</label></li>
+                <li><label for="lang-ua" class="c-lang__option">ua</label></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="s-hero" style="background-image: url('images/hero.webp')">
+    <div class="container">
+      <div class="s-hero__container">
+        <div class="s-hero__part">
+          <div class="s-hero__subtitle animate__animated animate__fadeInUp">
+            Lorem Ipsum is simply dummy text of the printing
+          </div>
+          <h1 class="s-hero__title animate__animated animate__fadeInUp animate__delay-1s">Company Name</h1>
+        </div>
+
+        <div class="s-hero__part animate__animated animate__fadeInUp animate__delay-1s">
+          <div class="s-hero__text">
+            Lorem Ipsum is <br /> simply dummy text of the printing <span class="u-yellow">and typesetting</span> industry.
+          </div>
+
+          <div class="s-hero__button">
+            <a href="#" class="c-button">
+              Select property
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="s-slider">
+    <div class="container">
+      <div class="s-slider__container">
+        <h2 class="s-slider__title">Our projects</h2>
+      </div>
+    </div>
+
+    <div class="s-slider__slider">
+      <div class="c-slider">
+        <div class="c-slider__wrapper">
+          <div class="c-slider__slide" id="s1">
+            <img src="images/slider-1.webp" alt="Image 1">
+            <div class="c-slider__content">
+              <div>
+                <h3 class="c-slider__label">Villa</h3>
+                <h3 class="c-slider__title">Lorem Ipsum</h3>
+              </div>
+              <a href="#" class="c-slider__btn">
+                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M27.25 16.5312L8.56875 16.5312L17.1437 25.1062L15 27.25L2.75 15L15 2.75L17.1438 4.89375L8.56875 13.4687L27.25 13.4687L27.25 16.5312Z" fill="currentColor"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="c-slider__slide" id="s2">
+            <img src="images/slider-2.webp" alt="Image 2">
+            <div class="c-slider__content">
+              <div>
+                <h3 class="c-slider__label">Villa</h3>
+                <h3 class="c-slider__title">Lorem Ipsum</h3>
+              </div>
+              <a href="#" class="c-slider__btn">
+                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M27.25 16.5312L8.56875 16.5312L17.1437 25.1062L15 27.25L2.75 15L15 2.75L17.1438 4.89375L8.56875 13.4687L27.25 13.4687L27.25 16.5312Z" fill="currentColor"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="c-slider__slide" id="s3">
+            <img src="images/slider-3.webp" alt="Image 3">
+            <div class="c-slider__content">
+              <div>
+                <h3 class="c-slider__label">Apartments</h3>
+                <h3 class="c-slider__title">Lorem Ipsum</h3>
+              </div>
+              <a href="#" class="c-slider__btn">
+                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M27.25 16.5312L8.56875 16.5312L17.1437 25.1062L15 27.25L2.75 15L15 2.75L17.1438 4.89375L8.56875 13.4687L27.25 13.4687L27.25 16.5312Z" fill="currentColor"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="c-slider__nav">
+          <div class="c-slider__nav-btn c-slider__nav-btn--prev">
+            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M27.25 16.5312L8.56875 16.5312L17.1437 25.1062L15 27.25L2.75 15L15 2.75L17.1438 4.89375L8.56875 13.4687L27.25 13.4687L27.25 16.5312Z" fill="currentColor"/>
+            </svg>
+          </div>
+            
+          <div class="c-slider__nav-btn c-slider__nav-btn--next">
+            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M27.25 16.5312L8.56875 16.5312L17.1437 25.1062L15 27.25L2.75 15L15 2.75L17.1438 4.89375L8.56875 13.4687L27.25 13.4687L27.25 16.5312Z" fill="currentColor"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="s-info">
+    <div class="container">
+      <div class="s-info__description">
+        <span class="u-white">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+        </span>
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining.
+      </div>
+
+      <h2 class="s-info__title">
+        More than 10 years
+      </h2>
+    </div>
+
+    <div class="s-info__image-wrap">
+      <img src="images/image-1.webp" class="s-info__image" alt="">
+    </div>
+  </section>
+</body>
+</html>
